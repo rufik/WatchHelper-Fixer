@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_category_basic"/>
+    <SwitchPreference
+        android:defaultValue="false"
+        android:enabled="true"
+        android:key="switch_sound_off"
+        android:summary="@string/pref_description_disable_sound"
+        android:title="@string/pref_title_disable_sound" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="switch_alert_off"
+        android:summary="@string/pref_description_disable_alert"
+        android:title="@string/pref_title_disable_alert" />
+
+    <PreferenceCategory android:title="@string/pref_category_adv_title"/>
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:enabled="true"
+        android:key="debug"
+        android:summary="@string/pref_description_debug"
+        android:title="@string/pref_title_debug" />
+
+</PreferenceScreen>

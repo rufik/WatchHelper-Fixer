@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">WatchHelper Fixer</string>
+
+    <string name="pref_title_disable_sound">Disable \"link lost\" sound</string>
+    <string name="pref_description_disable_sound">Get rid of awful sound when BT link to watch is lost. Note that all sounds from this app will not be played!</string>
+
+    <string name="pref_title_disable_alert">Disable \"link lost\" alert</string>
+    <string name="pref_description_disable_alert">Get rid of alert window when BT link to watch is lost</string>
+
+    <string name="pref_title_debug">Debug</string>
+    <string name="pref_description_debug">Be more verbose in xposed log</string>
+    <string name="pref_category_adv_title">Advanced</string>
+    <string name="pref_category_basic">Hacks</string>
+</resources>
