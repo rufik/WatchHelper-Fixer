@@ -1,2 +1,10 @@
 # WatchHelper-Fixer
-XPosed module for Watch Helper companion app (Fonow X5+, LEMFO LEM5 smartwatches)
+Xposed module for Watch Helper companion app (Finow X5+, LEMFO LEM5 smartwatches)
+
+## What for?
+This module helps you to get rid of awful alert windows and/or alert sound from Watch Helper companion app.
+
+## Installation & Requirements
+- Android 5.0 or better (tested sucessfully with 6.0 Marshmallow)
+- Xposed v82 or better
+Just install & run Xposed, then build, install and activate this module. Any changes make in this module makes immediate effect.
